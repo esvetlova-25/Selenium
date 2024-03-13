@@ -41,4 +41,5 @@ public class TestCardApplication {
         var text = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
         assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text);
     }
+
 }
